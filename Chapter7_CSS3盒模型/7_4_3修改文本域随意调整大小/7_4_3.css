@@ -1,0 +1,9 @@
+textarea {
+    resize:vertical;
+}
+
+/* 使用方法:
+textarea默认的resize属性为both;
+resize: none | both |vertical|horizontal| inherit;
+vertical仅可调整高度
+horizontal仅可调整宽度 */
