@@ -1,0 +1,44 @@
+* {
+   margin:0;
+   padding:0;
+}
+
+body > div {
+   border:1px solid #ccc;
+   margin:20px;
+   padding:10px;
+}
+
+div > div {
+    border:1px solid #f36;
+}
+
+.box {
+    display:-moz-box;
+    display:-webkit-box;
+    display:box;
+}
+
+.box-horizontal {
+    -moz-box-orient: horizontal;
+    -webkit-box-orient:horizontal;
+    box-orient: horizontal;
+}
+
+.box-vertical {
+    -moz-box-orient: vertical;
+    -webkit-box-orient:vertical;
+    box-orient: vertical;
+}
+
+.box-inline-axis {
+  -moz-box-orient:inline-axis;
+  -webkit-box-orient:inline-axis;
+  box-orient:inline-axis;
+}
+
+.box-block-axis {
+   -moz-box-orient:block-axis;
+   -webkit-box-orient:block-axis;
+   box-orient:block-axis;
+}
