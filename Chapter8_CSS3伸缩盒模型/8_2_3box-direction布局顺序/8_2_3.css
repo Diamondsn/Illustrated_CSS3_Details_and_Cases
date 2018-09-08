@@ -1,0 +1,40 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+body > div {
+  border:1px solid #ccc;
+  margin:20px;
+}
+
+div > div {
+  border:1px solid #f36;
+  padding:10px;
+}
+
+.box {
+   display:-moz-box;
+   display:-webkit-box;
+   display:box;
+}
+
+.box-vertical {
+    height:250px;
+    -moz-box-orient: vertical;
+    -webkit-box-orient:vertical;
+    box-orient:vertical;
+}
+
+.box-horizontal {
+    width:250px;
+    -moz-box-orient:horizontal;
+    -webkit-box-orient: horizontal;
+    box-orient:horizontal;
+}
+
+.box-direction-reverse {
+     -moz-box-direction:reverse;
+     -webkit-box-orient:reverse;
+     box-direction:reverse;
+}
