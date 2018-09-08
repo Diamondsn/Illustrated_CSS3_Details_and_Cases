@@ -61,3 +61,8 @@ body {
     -moz-box-flex:1;
     box-flex:1;
 }
+
+#page {
+    -moz-box-flex:1;
+    box-flex:1;
+}

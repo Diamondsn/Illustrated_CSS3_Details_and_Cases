@@ -1,0 +1,80 @@
+* {
+    margin:0;
+    padding:0;
+   box-sizing: border-box;
+}
+
+html {
+    height:100%;
+}
+
+body {
+    display: flex;
+    flex-flow:column wrap;
+    height:100%;
+    justify-content:start;
+    flex:1;
+    -moz-box-orient:vertical;
+    -moz-box-direction:normal;
+}
+
+section {
+    display:flex;
+    -moz-box-orient:horizontal;
+    -moz-box-direction:normal;
+    flex-flow:row wrap;
+    flex:1;
+    align-items:stretch;
+}
+
+
+article {
+    flex:1;
+    order:2;
+}
+
+header {
+    background-color:hsla(200,10%,70%,.5);
+    padding:10px 20px;
+    width:100%;
+    order:1;
+}
+
+section {
+   margin:20px 0;
+   display:flex;
+   order:2;
+   flex:1;
+   flex-flow:row wrap;
+   -moz-box-align:stretch;
+   align-items:stretch;
+}
+
+nav {
+    background-color:hsla(300,60%,20%,.9);
+    padding:1%;
+    width:220px;
+    order:1;
+}
+
+article {
+    background-color:hsla(120,50%,50%,.9);
+    padding:1%;
+    margin-left:2%;
+    margin-right:2%;
+    order:2;
+}
+
+aside {
+    background-color:hsla(20,80%,80%,.9);
+    padding:1%;
+    width:220px;
+    order:3;
+}
+
+footer {
+    background-color:hsla(250,50%,80%,.9);
+    padding:1%;
+    min-width:100%;
+    order:3;
+}
