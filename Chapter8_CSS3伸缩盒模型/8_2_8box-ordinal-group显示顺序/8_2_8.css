@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding:0;
+}
+
+body {
+  color:#fff;
+  font-size:20px;
+}
+
+.box-flex {
+    display:-moz-box;
+    display:box;
+    margin:100px;
+    background:gray;
+    border:1px solid red;
+}
+
+.box-flex div {
+    background:#f36;
+    padding:20px;
+    margin:5px;
+}
+
+.box-flex div:nth-child(1),
+.box-flex div:nth-child(4) {
+   background-color:orange;
+   -moz-box-ordinal-group:2;
+   box-ordinal-group:2;
+}
+
+.box-flex div:nth-child(3) {
+    background-color:green;
+    -moz-box-ordinal-group:3;
+    box-ordinal-group:3;
+}
